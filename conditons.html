@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- WAP TO DAY GREETINGS 1-->
+    <script>
+        <!-- // var t=+prompt("enter your time");//to take input from prompt
+        if(t>=1 && t<12){   //condition to check the time between 1 to 12 morning
+        alert("good morning");
+       }else if(t>=12 && t<18){ 
+        alert("good ofternoon");
+       }else if(t>=18 && t<20){
+        alert("good evenig");
+       }else{
+        alert("good Night");
+       } 
+     </script>
+    <!-- WAP TO FIND BIGGEST NUMBER GIVEN NUMBERS 2-->
+    <script>
+        var a=+prompt("enter a value"); //to take the input 
+        var b=+prompt("enter b value");//to take input 
+        var c=+prompt("enter c value");//to take input
+       
+        if(a>b && a>c){ //both condtions to check a is greater or not 
+            console.log(a+" a is bigest numer");//if the first both conditons true it will exicute
+        }else if(b>a && b>c){               //both conditions to  b is greatest number or not
+            console.log(b+"b is biggest number");
+        }else {
+            console.log(c+"c is biggest number");
+        }
+    </script>
+    <!-- WAP TO FIND BIGGEST IN GIVEN TWO NUMBERS 3-->
+    <script>
+        var a=+prompt("enter a value");
+        var b=+prompt("enter b value");
+        if(a>b){                      //condition to check a is greaterthan or not
+            alert(a+"a is biggest number");
+        }else{
+            alert(b+"b is biggest number");
+        }
+    </script>
+    <!-- WAP TO ARTHEMATIC OPERATIONS BY PASSING SYMBOLS 4-->
+    <script>
+        var a=+prompt("enter a value");
+        var b=+prompt("enter b value");
+        var c=prompt("enter you operation");
+        var d;
+        if("+" === c){//to check c is equal to "+"
+            d=a+b;    //to store additon of a and b value
+            alert(d+"addition");
+        }else if("-" === c){
+            d=a-b;
+            alert(d+"substruction");
+        }else if("*"===c){
+            d=a*b;
+            alert(d+"multification");
+        }else if("/"===c){
+            d=a/b;
+            alert(d+"division");
+        }else if("%"===c){
+            d=a%b;
+            alert(d+"module deviosion");
+        }else{
+            alert("try another operator");
+        }
+    </script>
+    <!-- WAP TO FIND MONTH  5-->
+    <script>
+        var m=+prompt(" enter a month of number");
+        switch (m){
+            case 1:
+                alert("jan");
+            break;
+            case 2:
+                alert("feb");
+                break;
+            case 3:
+                alert("march");
+                break;
+            case 4:
+                alert("apr");
+                break;
+            case 5:
+                alert("may");
+                break;
+            case 6:
+                alert("june");
+                break;
+            case 7:
+                alert("jul");
+                break;
+            case 8:
+                alert("aug");
+                break;
+            case 9:
+                alert("sept");
+                break;
+            case 10:
+                alert("oct");
+                break;
+            case 11:
+                alert("nov");
+                break;
+            case 12:
+                alert("december");
+                break;
+            default:
+                alert("try another number");
+
+        }
+        </script>
+        <!-- WAP TO FIND GIVEN NUM IS EVEN OR ODD 6 -->
+    <script>
+        var n=+prompt("enter a number");
+        if(n%2===0){
+            alert("given number is even");
+        }else{
+            alert("given number is odd");
+        }
+    </script>
+    
+
+</body>
+</html>
